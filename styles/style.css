@@ -1,0 +1,148 @@
+* {
+    margin: 0 9;
+    padding: 0 0;
+    border-style: border-box;
+}
+
+#topheader{
+    text-align: center;
+    padding: 20px 80px;
+}
+
+#navicons{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 50px;
+}
+
+.navlist{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navlist a{
+    text-decoration: none;
+}
+
+
+.boxcontainer{
+     display: flex;
+     flex-direction: row; 
+     margin: 50px;
+}
+
+#abouttext{
+    border-color:bisque;
+}
+
+
+#icon{
+    font-size: 60px;
+    padding: 30px;
+}
+
+#box{
+    padding: 30px;
+    align-items: center;
+    /* border: 1px black solid; */
+}
+
+.learnmorebutton{
+    background-color: white;
+    margin-left: 300px;
+    width: 120px;
+    height: 50px;
+}
+
+.detailsbutton{
+    background-color: white;
+    margin-left: 300px;
+    width: 120px;
+    height: 50px;
+}
+
+.detailstext{
+    font-size: 20px;
+}
+
+span{
+    font-size: 20px;
+}
+
+#aboutcontainer{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.aboutbox2{
+    padding-left: 150px;
+}
+
+.woodimage{
+    align-items: center;
+    margin-left: 75px;
+    margin-bottom: 40px;
+    width: 1400px;
+    height: 300px;
+}
+
+#service{
+    display: flex;
+    margin: 50px 50px;
+}
+
+.servicecontainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.lapi{
+    display: flex;
+    align-items: center;
+    background-color: rgb(178, 190, 181);
+    margin-bottom: 50px;
+}
+
+.lapitext{
+    padding-left: 50px;
+}
+
+.formflex{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    margin-bottom: 100px;
+}
+
+.contactbox{
+    padding-left: 100px;
+}
+
+.namemail{
+    display: flex;
+}
+
+.name{
+    padding-left: 10px;
+}
+
+.mail{
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.send{
+    background-color: white;
+    margin-left: 520px;
+    width: 120px;
+    height: 50px;
+}
+
+.footermiddle{
+    text-align: center;
+}
